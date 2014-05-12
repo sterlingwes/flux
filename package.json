@@ -1,0 +1,14 @@
+{
+  "name": "FB Flux",
+  "author": "Wes Johnson",
+  "description": "Repo for Facebook's Client Side 'Flux' Data Flow Concept",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sterlingwes/flux.git"
+  },
+  "dependencies" : {
+  },
+  "devDependencies": {
+  },
+  "license": "Apache-2.0"
+}
