@@ -17,10 +17,6 @@ module.exports = {
             actions.push(name);
     },
     
-    is: function(name) {
-        return actions.indexOf(name);
-    },
-    
     call: function(name,payload) {
         if(actions.indexOf(name)==-1)
             return console.error('No action named '+name+' registered.');
