@@ -1,5 +1,6 @@
 {
   "name": "FB Flux",
+  "version": "0.0.1",
   "author": "Wes Johnson",
   "description": "Repo for Facebook's Client Side 'Flux' Data Flow Concept",
   "repository": {
