@@ -18,7 +18,7 @@
  * A singleton that operates as the central hub for application updates.
  */
 
-var Dispatcher = require('./Dispatcher');
+var Dispatcher = require('./dispatcher');
 
 var merge = require('react/lib/merge');
 
