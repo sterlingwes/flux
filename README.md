@@ -10,4 +10,27 @@ More info:
 
 All code from Facebook is under the **Apache 2** license.
 
-API Docs to follow as I build this out more.
+# Components
+
+The main module exports the following methods:
+
+## .register(name)
+
+Register an action.
+
+*   name (string) - unique identifier for the action
+
+## .call(name[, payload]) `method`
+
+Invoke an action.
+
+*   name (string) - name of a registered action
+*   payload (any) - value to pass
+
+## .Dispatcher
+
+### .Dispatcher.register(callback)
+
+Call to register a handler for invoked actions.
+
+*   callback (function) - the only argument is the payload, of which the `action` attribute contains an `actionType` which matches the names defined with the primary `register` method, above.
